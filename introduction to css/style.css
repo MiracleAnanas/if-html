@@ -1,0 +1,38 @@
+.main-container{
+    max-width: 1120px;
+    margin: auto;
+    padding: 120px 0;
+}
+h2{
+    font-family: Roboto, sans-serif;
+    font-weight:500;
+    font-size: 40px;
+    color: #383838;
+    text-align: center;
+}
+
+.icon-text-box p{
+    font-family: Roboto, sans-serif;
+    font-size: 24px;
+    text-align: center;
+    color: #383838;
+}
+.icon-text-box{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.icons-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items:baseline;
+    margin-top: 80px;
+}
+.main-container hr{
+    background-color: #F5BD41;
+    width: 100px;
+    height: 4px;
+    border: none;
+    margin-top: 20px;
+}
