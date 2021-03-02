@@ -1,8 +1,71 @@
-.main-container{
-    max-width: 1120px;
-    margin: auto;
-    padding: 120px 0;
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/Roboto400(latin).woff2') format('woff');
+    font-style: normal;
+    font-weight: 400;
 }
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/Roboto500(latin).woff2') format('woff');
+    font-style: normal;
+    font-weight: 500;
+}
+
+body{
+    margin:0;
+}
+.main-container{
+    max-width: 1200px;
+    margin: auto;
+    padding: 120px 0 0;
+    height: 570px;
+    box-sizing: border-box;
+}
+
+.headers-in-footer{
+    font-weight: 500;
+    font-size: 20px;
+}
+.wrapper-for-footer-content{
+    max-width: 1200px;
+    margin: auto;
+    box-sizing: border-box;
+}
+.wrapper-columns-in-footer{
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 30px;
+}
+
+.footer{
+    background-color:#10367C;
+    padding: 105px 0 105px 105px;
+    height: 630px;
+    font-family: Roboto, sans-serif;
+    box-sizing: border-box;
+}
+
+.columns-in-footer{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+.main-text{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.small-text{
+    font-size: 14px;
+
+}
+
+.footer p{
+    color:#FFFFFF;
+    margin: 0;
+    padding: 15px 0;
+}
+
 h2{
     font-family: Roboto, sans-serif;
     font-weight:500;
@@ -25,7 +88,7 @@ h2{
 
 .icons-bar{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items:baseline;
     margin-top: 80px;
 }
