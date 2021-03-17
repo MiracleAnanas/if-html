@@ -99,3 +99,204 @@ h2{
     border: none;
     margin-top: 20px;
 }
+.icons{
+    display: none;
+}
+.main-screen{
+    background-image: url("images/main-background.jpg");
+    height: 100vh;
+    background-size: cover;
+    padding: 5vh 105px 0  ;
+}
+.main-screen-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-right-part{
+    display: flex;
+    justify-content: space-between;
+    color:#FFFFFF;
+    font-size: 24px;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    width: 350px;
+
+}
+.header-navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.header-navbar span{
+    margin-right: 24px;
+}
+
+.header-navbar svg{
+    margin-left: 24px;
+}
+
+.night{
+    height: 30px;
+    width: 30px;
+}
+.account{
+    height: 40px;
+    width: 40px;
+}
+.svg-logo{
+    height: 40px;
+    width: 205px;
+    box-sizing: content-box;
+}
+h1{
+    font-family: Roboto, sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    text-align: left;
+    color: #FFFFFF;
+    margin-top: 15vh;
+}
+form{
+    display: flex;
+    padding-top: 10vh;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    box-sizing: content-box;
+    align-items: flex-end;
+    justify-content: flex-start;
+    width: 100%;
+
+
+}
+input{
+    height: 65px;
+    border-bottom: 3px solid #F3F3F4;
+    border-top: 3px solid #F3F3F4;
+    border-left: none;
+    border-right: none;
+    box-sizing: border-box;
+
+}
+.form-parts {
+    color: #FFFFFF;
+    font-size: 18px;
+
+}
+
+.form-search-but{
+    background-color:#3077C6;
+    color: #FFFFFF;
+    font-family: Roboto, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    text-align: center;
+    height: 65px;
+    border: 3px solid #3077C6;
+    border-radius: 8px;
+    width: 15%;
+    margin-left: -10px;
+
+}
+.first-element{
+    border-top: 3px solid #F3F3F4;
+    border-bottom: 3px solid #F3F3F4;
+    border-left: 3px solid #F3F3F4;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+    width: 105%;
+}
+.check{
+    width: 10%;
+}
+
+#check-in{
+    border-top: 3px solid #F5BD41;
+    border-bottom: 3px solid #F5BD41;
+    border-left: 3px solid #F5BD41;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+}
+
+#check-out {
+    border-top: 3px solid #F5BD41;
+    border-bottom: 3px solid #F5BD41;
+    border-right: 3px solid #F5BD41;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+}
+#people-count{
+    margin-left: -10px;
+    width: 25%;
+}
+.form-parts p{
+    margin:0 0 25px 25px;
+}
+.form-parts:first-child{
+    width: 40%;
+}
+.get-it-on-icon{
+    width: 40px;
+    height: 10px;
+}
+.google-text-icon{
+    width: 70px;
+    height: 15px;
+}
+.download-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.download-block{
+    background-color: #000000;
+    border: 1px solid #A6A6A6;
+    border-radius: 4px;
+    width: 135px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+}
+.apple-icon{
+    height: 30px;
+    width: 30px;
+}
+.download-apple-icon{
+    width: 70px;
+    height: 10px;
+}
+.app-store-icon{
+    width: 65px;
+    height: 15px;
+}
+.download-blocks{
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+}
+.download-icon{
+    margin-right: 10px;
+}
+.header-tab{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header-tab:hover::after {
+    content: " ";
+    height: 4px;
+    width: 80%;
+    background-color: #F5BD41;
+    margin-top: 10px;
+
+}
